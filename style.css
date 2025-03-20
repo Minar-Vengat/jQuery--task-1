@@ -1,0 +1,53 @@
+
+body{
+    background-color: rgb(255, 217, 0);
+}
+.while {
+    width: 360px; 
+    padding: 20px;
+    margin-top: 10px;
+    background-color:rgba(169, 228, 223, 0.67);
+    border-bottom: 4px solid rgb(166, 255, 0);
+
+}
+.for {
+    width: 360px; 
+    padding: 20px;
+    margin-top: 10px;
+    background-color: rgba(205, 124, 124, 0.67);
+    border-bottom: 4px solid rgb(4, 13, 14);
+  
+
+}
+.dowhile {
+    width: 360px;
+    padding: 10px; 
+    margin-top: 10px;
+    background-color: rgba(78, 215, 94, 0.67);
+    border-bottom: 4px solid rgb(34, 0, 255);
+
+}
+.multiply{
+    border: none;
+    border-bottom: 3px solid whitesmoke;
+    outline: none;
+    background: none;
+}
+.factor{
+    border: none;
+    border-bottom: 3px solid whitesmoke;
+    outline: none;
+    background: none;
+}
+.num1{
+    border: none;
+    border-bottom: 3px solid whitesmoke;
+    outline: none;
+    background: none;
+}
+.num2{
+    border: none;
+    border-bottom: 3px solid whitesmoke;
+    outline: none;
+    background: none;
+}

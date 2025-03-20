@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops Concept</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container" style="padding: 20px;">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12" style="text-align: center; margin-top: 40px;">
+                <button type="button" class="btn text-light" id="day" style="background-color: rgb(185, 111, 46);">DAY</button>
+                <button type="button" class="btn text-light" id="date" style="background-color: rgb(185, 111, 46);">DATE</button>
+                <p id="dayShow" style="font-size: 20px;"></p>
+                <p id="dateShow"></p>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <h3 class="text-center" style="margin-top: 100px;color: red;">USING WHILE LOOP</h3>
+                <div class="while text-center">
+                    <h3 class="text-light">MULTIPLICATION TABLE</h3>
+                    <input type="number" class="multiply mt-3" placeholder="Which Table" id="table">
+                    <div class="mt-5">
+                        <button type="button" class="btn btn-primary" id="whileLoop">submit</button>
+                    </div>
+                    <span id="result" style="color:saddlebrown;font-size: 15px;font-weight: 500;"></span>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <h3 class="text-center" style="margin-top: 100px;color: red;">USING FOR LOOP</h3>
+                <div class="for text-center">
+                    <h3 class="text-light">FACTORIAL NUMBER</h3>
+                    <input type="number" class="factor mt-3" placeholder="Enter a Number" id="factorial">
+                    <div class="mt-5">
+                        <button type="button" class="btn btn-primary" id="forLoop">submit</button>
+                    </div>
+                    <span id="results" style="color: rgb(181, 24, 24);font-size: 15px;font-weight: 500;"></span>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <h3 class="text-center" style="margin-top: 100px;color: red;">USING DO WHILE LOOP</h3>
+                <div class="dowhile text-center">
+                    <h3 class="text-light">PRINT THE NUMBERS</h3>
+                    <div>
+                        <input type="number" class="num1 mt-3" placeholder="Starting Number" id="num1">
+                    </div><br>
+                    <div>
+                        <input type="number" class="num2" placeholder="Ending Number" id="num2">
+                    </div>
+                    <div class="mt-4">
+                        <button type="button" class="btn btn-primary" id="doWhileLoop">submit</button>
+                    </div>
+                    <span id="output" style="color: darkmagenta;font-size: 15px;font-weight: 500;"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
